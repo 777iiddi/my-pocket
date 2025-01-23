@@ -1,0 +1,249 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .hero-section {
+        background: linear-gradient(-45deg, #16a34a, #2563eb, #0d9488, #15803d);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        padding: 60px 0;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+
+    @@keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .feature-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 25px;
+        margin: 15px 0;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        transition: transform 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            border-color: #4ade80;
+        }
+
+    .sponsor-card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+        margin: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+        .sponsor-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+            border-color: #4ade80;
+        }
+
+        .sponsor-card img {
+            border-radius: 10px;
+            filter: grayscale(50%);
+            transition: all 0.3s ease;
+            max-height: 100px;
+            object-fit: contain;
+        }
+
+        .sponsor-card:hover img {
+            filter: grayscale(0%);
+        }
+
+    .cta-button {
+        background: linear-gradient(45deg, #16a34a, #2563eb);
+        border: none;
+        padding: 15px 30px;
+        border-radius: 30px;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        color: white;
+        text-decoration: none;
+    }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+            color: white;
+            text-decoration: none;
+            background: linear-gradient(45deg, #15803d, #1d4ed8);
+        }
+
+    .feature-icon {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        color: #4ade80;
+        background: rgba(74, 222, 128, 0.1);
+        padding: 15px;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+
+    .feature-card:hover .feature-icon {
+        background: rgba(74, 222, 128, 0.2);
+        transform: scale(1.1);
+    }
+
+    .feature-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .feature-list li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+            .feature-list li:hover {
+                background: rgba(74, 222, 128, 0.1);
+            }
+
+        .feature-list i {
+            color: #4ade80;
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+    .footer-custom {
+        background: linear-gradient(45deg, #064e3b, #1e3a8a);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-top: 100px;
+    }
+
+    .money-icon {
+        animation: floating 3s ease-in-out infinite;
+        display: inline-block;
+    }
+
+    @@keyframes floating {
+        0% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="hero-section">
+        <div class="row mb-4">
+            <div class="col-md-12 text-center">
+                <h1 class="display-4 text-light mb-4">my pocket Pro <span class="money-icon">💰</span></h1>
+                <p class="lead text-light">Master your finances, shape your future! ✨</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="feature-card">
+                <i class="fas fa-wallet feature-icon"></i>
+                <h3 class="text-light">Why Choose my pocket?</h3>
+                <p class="text-light">
+                    Transform your financial journey with our intuitive money management solution.
+                    Smart insights, easy tracking, and powerful analytics - all in one place!
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="feature-card">
+                <i class="fas fa-coins feature-icon"></i>
+                <h3 class="text-light">Key Features</h3>
+                <ul class="feature-list text-light">
+                    <li><i class="fas fa-check-circle"></i>Income & Expense Tracking</li>
+                    <li><i class="fas fa-check-circle"></i>Smart Budget Planning</li>
+                    <li><i class="fas fa-check-circle"></i>Financial Reports & Insights</li>
+                    <li><i class="fas fa-check-circle"></i>Secure Transaction History</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-12 text-center mb-4">
+            <h3 class="text-light">Trusted By Financial Experts</h3>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="sponsor-card">
+                    <img src="/image/images.png" alt="Sponsor 1" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sponsor-card">
+                    <img src="/image/images.jpeg" alt="Sponsor 2" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sponsor-card">
+                    <img src="/image/imgpsh_fullsize_anim.png" alt="Sponsor 3" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sponsor-card">
+                    <img src="/image/unnamed.png" alt="Sponsor 4" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-12 text-center">
+            <div class="feature-card">
+                <h3 class="text-light mb-4">Ready to Master Your Money?</h3>
+                <a href="/Dashboard" class="cta-button">
+                    <i class="fas fa-chart-line me-2"></i>Start Tracking Now
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-custom">
+    <div class="text-center text-light py-4">
+        <p>
+            <i class="fas fa-coins me-2"></i>
+            Made with <i class="fas fa-heart text-danger mx-1"></i> by emsi
+            <br>
+            <small>&copy; @DateTime.Now.Year my pocket. All rights reserved.</small>
+        </p>
+    </div>
+</footer>

@@ -1,0 +1,989 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\category\\createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\category\\createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\my_pocket.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\my_pocket.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\.nuget\\packages\\bootstrap\\5.3.3\\contentfiles\\any\\any\\wwwroot\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\transaction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\transaction\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\transaction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\transaction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\transaction\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\transaction\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115232130_dzf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115232130_dzf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115231827_dz.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115231827_dz.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115231739_d.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115231739_d.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115231708_qq.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115231708_qq.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115230307_cr.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115230307_cr.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115223653_creatio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115223653_creatio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115213339_creati.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115213339_creati.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115213132_creat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115213132_creat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115211751_c.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115211751_c.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115210106_cre.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115210106_cre.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115205855_creaa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115205855_creaa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115205344_crea.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115205344_crea.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20240613171554_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20240613171554_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115203648_c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115203519_ccd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115202801_cc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115230307_cr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115230307_cr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115223653_creatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115223653_creatio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115213339_creati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115213339_creati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115213132_creat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115213132_creat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115232130_dzf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115232130_dzf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115231827_dz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115231827_dz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115231739_d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115231739_d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115231708_qq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115231708_qq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115205855_creaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115205855_creaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115205344_crea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115205344_crea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115210106_cre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115210106_cre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20250115211751_c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20250115211751_c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\20240613171554_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\20240613171554_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\transaction\\createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\transaction\\createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\transaction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|c:\\users\\mehdi\\desktop\\expense-tracker-master\\expense tracker\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24EAC39C-1B6D-4D77-A1C6-9C71193FDCAE}|Expense Tracker\\MY_POCKET.csproj|solutionrelative:expense tracker\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Expense Tracker\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwGsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:00:38.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Expense Tracker\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:58:47.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Expense Tracker\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:02:00.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Program.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Program.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Program.cs",
+              "RelativeToolTip": "Expense Tracker\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T13:59:42.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\appsettings.json",
+              "RelativeDocumentMoniker": "Expense Tracker\\appsettings.json",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\appsettings.json",
+              "RelativeToolTip": "Expense Tracker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-04T14:49:21.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Models\\Category.cs",
+              "RelativeToolTip": "Expense Tracker\\Models\\Category.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:27:16.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Expense Tracker\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:10:18.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\CreateOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\CreateOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\CreateOrEdit.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\CreateOrEdit.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAowH8AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T15:33:42.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Models\\Transaction.cs",
+              "RelativeToolTip": "Expense Tracker\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:32:21.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Expense Tracker\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T15:33:01.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T21:42:26.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Expense Tracker\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:01:55.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MY_POCKET.csproj",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\MY_POCKET.csproj",
+              "RelativeDocumentMoniker": "Expense Tracker\\MY_POCKET.csproj",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\MY_POCKET.csproj",
+              "RelativeToolTip": "Expense Tracker\\MY_POCKET.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-14T17:46:40.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Expense Tracker\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Expense Tracker\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-16T00:39:35.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Expense Tracker\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Expense Tracker\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-17T13:23:57.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bootstrap.js",
+              "DocumentMoniker": "C:\\Users\\mehdi\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+              "ToolTip": "C:\\Users\\mehdi\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js [Lecture seule]",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js [Lecture seule]",
+              "ViewState": "AgIAADkAAAAAAAAAAIBZwAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-17T13:23:54.115Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T15:33:58.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAALoAAAAAAAAAAAAiwMQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T15:35:24.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T23:10:31.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_SideBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T21:42:27.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\Delete.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T00:01:20.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\Details.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\Details.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\Details.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T00:01:22.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\Edit.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T00:01:45.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T00:01:18.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250115232130_DZF.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115232130_DZF.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115232130_DZF.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115232130_DZF.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115232130_DZF.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:01:08.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250115231827_DZ.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231827_DZ.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115231827_DZ.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231827_DZ.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115231827_DZ.Designer.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:00:58.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250115231739_D.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231739_D.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115231739_D.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231739_D.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115231739_D.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:00:47.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250115231708_qq.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231708_qq.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115231708_qq.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231708_qq.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115231708_qq.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:00:32.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250115230307_cr.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115230307_cr.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115230307_cr.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115230307_cr.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115230307_cr.Designer.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:00:13.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250115223653_creatio.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115223653_creatio.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115223653_creatio.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115223653_creatio.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115223653_creatio.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:59:58.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250115213339_creati.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115213339_creati.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115213339_creati.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115213339_creati.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115213339_creati.Designer.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAhwFIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:59:35.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250115213132_creat.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115213132_creat.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115213132_creat.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115213132_creat.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115213132_creat.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:59:27.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250115211751_c.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115211751_c.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115211751_c.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115211751_c.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115211751_c.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:59:17.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250115210106_cre.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115210106_cre.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115210106_cre.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115210106_cre.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115210106_cre.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:58:56.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250115205855_creaa.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115205855_creaa.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115205855_creaa.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115205855_creaa.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115205855_creaa.Designer.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAhwFIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:58:34.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250115205344_crea.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115205344_crea.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115205344_crea.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115205344_crea.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115205344_crea.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAhwFEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:58:11.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240613171554_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20240613171554_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20240613171554_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20240613171554_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20240613171554_InitialCreate.Designer.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAhwEoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T23:57:45.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250115230307_cr.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115230307_cr.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115230307_cr.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115230307_cr.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115230307_cr.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:03:08.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250115223653_creatio.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115223653_creatio.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115223653_creatio.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115223653_creatio.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115223653_creatio.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T22:36:53.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250115213339_creati.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115213339_creati.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115213339_creati.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115213339_creati.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115213339_creati.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T21:33:40.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250115213132_creat.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115213132_creat.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115213132_creat.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115213132_creat.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115213132_creat.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T21:31:33.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250115232130_DZF.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115232130_DZF.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115232130_DZF.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115232130_DZF.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115232130_DZF.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:21:30.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250115231827_DZ.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231827_DZ.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115231827_DZ.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231827_DZ.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115231827_DZ.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:18:27.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250115231739_D.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231739_D.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115231739_D.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231739_D.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115231739_D.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:17:39.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20250115231708_qq.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231708_qq.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115231708_qq.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115231708_qq.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115231708_qq.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T23:17:08.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250115205855_creaa.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115205855_creaa.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115205855_creaa.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115205855_creaa.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115205855_creaa.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:58:56.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250115205344_crea.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115205344_crea.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115205344_crea.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115205344_crea.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115205344_crea.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:53:45.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250115210106_cre.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115210106_cre.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115210106_cre.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115210106_cre.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115210106_cre.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T21:01:06.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250115211751_c.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115211751_c.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20250115211751_c.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115211751_c.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20250115211751_c.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T21:17:52.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T15:41:00.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20240613171554_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20240613171554_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\20240613171554_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\20240613171554_InitialCreate.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\20240613171554_InitialCreate.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:53:09.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Expense Tracker\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Expense Tracker\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAhwE4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:43:35.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CreateOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\CreateOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\CreateOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\CreateOrEdit.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\CreateOrEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T23:56:32.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\Index.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Transaction\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Transaction\\Index.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Transaction\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T22:58:55.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T22:46:10.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAuwPUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T16:32:33.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAqwLgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T15:38:43.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250115202801_cc.cs",
+              "DocumentMoniker": "D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115202801_cc.cs",
+              "ToolTip": "D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115202801_cc.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:28:01.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250115203519_ccd.cs",
+              "DocumentMoniker": "D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115203519_ccd.cs",
+              "ToolTip": "D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115203519_ccd.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:35:19.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250115203648_c.cs",
+              "DocumentMoniker": "D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115203648_c.cs",
+              "ToolTip": "D:\\expense-tracker-master\\expense-tracker-master\\Expense Tracker\\Migrations\\20250115203648_c.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:36:48.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Expense Tracker\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\Desktop\\expense-tracker-master\\Expense Tracker\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Expense Tracker\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T16:30:56.115Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+@{
+    ViewData["Title"] = "Financial Dashboard";
+}
+
+<style>
+    .finance-dashboard {
+        background: #f8fafc;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    .money-card {
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        height: 100%;
+        border-left: 4px solid transparent;
+    }
+
+    .income-card {
+        border-left-color: #16a34a;
+    }
+
+    .expense-card {
+        border-left-color: #dc2626;
+    }
+
+    .balance-card {
+        border-left-color: #2563eb;
+    }
+
+    .money-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #f0f9ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .income-icon {
+        background: #f0fdf4;
+        color: #16a34a;
+    }
+
+    .expense-icon {
+        background: #fef2f2;
+        color: #dc2626;
+    }
+
+    .balance-icon {
+        background: #f0f9ff;
+        color: #2563eb;
+    }
+
+    .money-label {
+        color: #64748b;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .money-value {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+        .money-value.text-success {
+            color: #16a34a !important;
+        }
+
+        .money-value.text-danger {
+            color: #dc2626 !important;
+        }
+
+        .money-value.text-primary {
+            color: #2563eb !important;
+        }
+
+    .money-period {
+        color: #94a3b8;
+        font-size: 13px;
+    }
+
+    .transactions-table {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .transactions-header {
+        padding: 20px;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+        .table th {
+            border-top: none;
+            color: #64748b;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+            padding: 15px 20px;
+        }
+
+        .table td {
+            padding: 15px 20px;
+            vertical-align: middle;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+    .amount {
+        font-weight: 600;
+        padding: 6px 12px;
+        border-radius: 6px;
+    }
+
+    .amount-plus {
+        background: #dcfce7;
+        color: #16a34a;
+    }
+
+    .amount-minus {
+        background: #fee2e2;
+        color: #dc2626;
+    }
+
+    .chart-container {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        height: 100%;
+    }
+
+    .chart-title {
+        color: #1e293b;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="finance-dashboard">
+    <div class="row g-4 mb-4">
+        <div class="col-md-4">
+            <div class="money-card income-card">
+                <div class="money-icon income-icon">
+                    <i class="fas fa-arrow-trend-up"></i>
+                </div>
+                <div class="money-label">TOTAL INCOME</div>
+                <div class="money-value text-success">@ViewBag.TotalIncome</div>
+                <div class="money-period">Current Month</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="money-card expense-card">
+                <div class="money-icon expense-icon">
+                    <i class="fas fa-arrow-trend-down"></i>
+                </div>
+                <div class="money-label">TOTAL EXPENSE</div>
+                <div class="money-value text-danger">@ViewBag.TotalExpense</div>
+                <div class="money-period">Current Month</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="money-card balance-card">
+                <div class="money-icon balance-icon">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <div class="money-label">NET BALANCE</div>
+                <div class="money-value text-primary">@ViewBag.Balance</div>
+                <div class="money-period">Current Month</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="transactions-table">
+                <div class="transactions-header">
+                    <h5 class="mb-0">Recent Transactions</h5>
+                </div>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>CATEGORY</th>
+                                <th>DATE</th>
+                                <th>AMOUNT</th>
+                                <th>NOTE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in ViewBag.RecentTransactions)
+                            {
+                                <tr>
+                                    <td>
+                                        <i class="@item.Category.Icon me-2"></i>
+                                        @item.Category.Title
+                                    </td>
+                                    <td>@item.Date.ToString("MMM dd, yyyy")</td>
+                                    <td>
+                                        <span class="amount @(item.Category.Type == "Income" ? "amount-plus" : "amount-minus")">
+                                            @(item.Category.Type == "Income" ? "+" : "-")@item.Amount
+                                        </span>
+                                    </td>
+                                    <td>@item.Note</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="chart-container">
+                <h6 class="chart-title">Spending Breakdown</h6>
+                <canvas id="categoryChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('categoryChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: @Html.Raw(Json.Serialize(ViewBag.CategoryLabels)),
+            datasets: [{
+                data: @Html.Raw(Json.Serialize(ViewBag.CategoryTotals)),
+                backgroundColor: [
+                    '#16a34a', '#2563eb', '#dc2626', '#eab308',
+                    '#7c3aed', '#db2777', '#14b8a6', '#f97316'
+                ],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        usePointStyle: true,
+                        padding: 15
+                    }
+                }
+            },
+            cutout: '75%'
+        }
+    });
+</script>

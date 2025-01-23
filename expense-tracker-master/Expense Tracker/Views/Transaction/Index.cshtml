@@ -1,0 +1,199 @@
+@model IEnumerable<MY_POCKET.Models.Transaction>
+
+@{
+    ViewData["Title"] = "Transactions";
+}
+
+<style>
+    .finance-container {
+        background: #f8fafc;
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    .transactions-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .new-transaction-btn {
+        background: linear-gradient(135deg, #00b09b, #96c93d);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: all 0.3s ease;
+    }
+
+        .new-transaction-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 176, 155, 0.2);
+            color: white;
+        }
+
+    .transactions-table {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+        .table thead th {
+            background: #f1f5f9;
+            color: #475569;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            padding: 15px 20px;
+            border: none;
+        }
+
+        .table tbody td {
+            padding: 15px 20px;
+            vertical-align: middle;
+            color: #334155;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+    .amount {
+        font-weight: 600;
+        padding: 6px 12px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    .amount-income {
+        background: #dcfce7;
+        color: #16a34a;
+    }
+
+    .amount-expense {
+        background: #fee2e2;
+        color: #dc2626;
+    }
+
+    .action-btn {
+        padding: 6px 10px;
+        border-radius: 6px;
+        color: #64748b;
+        transition: all 0.2s;
+    }
+
+    .edit-btn:hover {
+        background: #dbeafe;
+        color: #2563eb;
+    }
+
+    .delete-btn:hover {
+        background: #fee2e2;
+        color: #dc2626;
+    }
+
+    .stats-card {
+        background: linear-gradient(135deg, #1e293b, #334155);
+        border-radius: 15px;
+        padding: 25px;
+        height: 100%;
+        color: white;
+    }
+
+    .stats-icon {
+        font-size: 48px;
+        margin-bottom: 20px;
+        color: #94a3b8;
+    }
+
+    .category-icon {
+        width: 32px;
+        height: 32px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-right: 10px;
+        background: #f1f5f9;
+    }
+</style>
+
+<div class="finance-container">
+    <div class="transactions-header">
+        <h4 class="mb-0">Transaction History</h4>
+        <a asp-action="CreateOrEdit" class="new-transaction-btn">
+            <i class="fas fa-plus"></i>
+            New Transaction
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10">
+            <div class="transactions-table">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>CATEGORY</th>
+                            <th>AMOUNT</th>
+                            <th>NOTE</th>
+                            <th>DATE</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div class="category-icon">
+                                            <i class="@item.Category.Icon"></i>
+                                        </div>
+                                        @item.Category.Title
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="amount @(item.Category.Type == "Income" ? "amount-income" : "amount-expense")">
+                                        @(item.Category.Type == "Income" ? "+" : "-")@item.Amount
+                                    </span>
+                                </td>
+                                <td>@item.Note</td>
+                                <td>@item.Date.ToString("MMM dd, yyyy")</td>
+                                <td>
+                                    <div class="d-flex gap-2">
+                                        <a asp-action="CreateOrEdit" asp-route-id="@item.TransactionId"
+                                           class="action-btn edit-btn">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <form asp-action="Delete" asp-route-id="@item.TransactionId"
+                                              onsubmit="return confirm('Are you sure you want to delete this transaction?');">
+                                            <button type="submit" class="action-btn delete-btn">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="stats-card">
+                <div class="text-center">
+                    <i class="fas fa-chart-pie stats-icon"></i>
+                    <h6>Total Transactions</h6>
+                    <h3>@Model.Count()</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

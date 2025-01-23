@@ -1,0 +1,180 @@
+﻿@model MY_POCKET.Models.Category
+
+@{
+    ViewData["Title"] = "Create";
+    ViewData["PageTitle"] = Model.CategoryId == 0 ? "Create Category" : "Update Category";
+}
+
+<style>
+    .finance-form-container {
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+        padding: 30px;
+    }
+
+    .type-selector {
+        background: #f1f5f9;
+        padding: 4px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+
+        .type-selector label {
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            width: 50%;
+            text-align: center;
+        }
+
+    .btn-check:checked + label {
+        background: #2563eb;
+        color: white;
+    }
+
+    .btn-check:not(:checked) + label {
+        color: #64748b;
+    }
+
+        .btn-check:not(:checked) + label:hover {
+            background: rgba(37, 99, 235, 0.1);
+        }
+
+    .form-control {
+        border: 1px solid #e2e8f0;
+        padding: 12px 16px;
+        border-radius: 10px;
+        font-size: 15px;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+    .control-label {
+        color: #475569;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    .submit-btn {
+        background: #2563eb;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 10px;
+        border: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+        .submit-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-1px);
+        }
+
+    .image-container {
+        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        border-radius: 15px;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        min-height: 400px;
+    }
+
+        .image-container svg {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            animation: floating 6s ease-in-out infinite;
+        }
+
+    @@keyframes floating {
+        0% {
+            transform: translate(0, 0px);
+        }
+
+        50% {
+            transform: translate(0, -20px);
+        }
+
+        100% {
+            transform: translate(0, 0px);
+        }
+    }
+</style>
+
+<div class="row g-4">
+    <div class="col-md-7">
+        <div class="finance-form-container">
+            <form asp-action="CreateOrEdit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" name="CategoryId" value="@Model.CategoryId" />
+
+                <div class="type-selector">
+                    <div class="btn-group w-100" role="group">
+                        <input type="radio" class="btn-check" name="Type" id="income" value="Income"
+                               autocomplete="off" @(Model.Type == "Income" ? "checked" : "")>
+                        <label class="btn" for="income">
+                            <i class="fas fa-arrow-trend-up me-2"></i>Income
+                        </label>
+
+                        <input type="radio" class="btn-check" name="Type" id="expense" value="Expense"
+                               autocomplete="off" @(Model.Type == "Expense" ? "checked" : "")>
+                        <label class="btn" for="expense">
+                            <i class="fas fa-arrow-trend-down me-2"></i>Expense
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Title" class="control-label">Category Name</label>
+                    <input asp-for="Title" class="form-control" placeholder="Enter category name" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Icon" class="control-label">Icon Class</label>
+                    <input asp-for="Icon" class="form-control" placeholder="IMAGE" />
+                    <span asp-validation-for="Icon" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-save me-2"></i>Save Category
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="image-container">
+            <div class="text-center">
+                <div class="mb-4">
+                    <i class="fas fa-wallet fa-4x" style="color: #2563eb;"></i>
+                </div>
+                <div class="category-icons mb-4">
+                    <i class="fas fa-home fa-2x mx-2" style="color: #dc2626;"></i>
+                    <i class="fas fa-car fa-2x mx-2" style="color: #16a34a;"></i>
+                    <i class="fas fa-utensils fa-2x mx-2" style="color: #2563eb;"></i>
+                </div>
+                <h3 class="mb-3" style="color: #1e293b; font-weight: 600;">Category Management</h3>
+                <p style="color: #64748b; font-size: 1.1rem;">
+                    Create and manage categories to keep track of your spending habits 📊
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
